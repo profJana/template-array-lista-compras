@@ -2,15 +2,17 @@
 //exemplo de um pronto:
 
 //cada fruta dentro do array tem um índice, exemplo: 0, 1, 2
-
+let idades = [28, 10, 15];
 
 //criando um array vazio para representar o carrinho de compras
-
+let carrinho = [];
 
 //criando uma função que permite que o usuário adicione um item ao carrinho
 function adicionarItem(){
     let item = prompt("Digite o nome do item:");
-    
+    carrinho.push(item)
+    console.log(carrinho)
+    console.log("clicou")
 }
 
 // criando uma função que permite que o usuário remova um item do carrinho
